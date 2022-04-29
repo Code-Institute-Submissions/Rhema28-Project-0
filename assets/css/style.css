@@ -8,7 +8,7 @@
 body {
     font-family: Lora, sans-serif;
     font-weight: 300;
-    color: #272249;
+    color: #0080ca;
 }
 
 /* headings and logo */
@@ -17,7 +17,8 @@ h1, h2 {
     font-family: Domine, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color:darkslateblue;
+    /* color:darkslateblue; */
+    color:#331bcf;
 }
 #logo {
     float: left;
@@ -37,11 +38,43 @@ h1, h2 {
 }
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: #331bcf;
 }
 #menu a:hover {
-    border-bottom: 1px solid #272249;
+    border-bottom: 1px solid #331bcf;
 }
 .active {
     border-bottom: 1px solid #272249;
+}
+/* hero image */
+#hero-outer {
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image1 {
+    height: 650px;
+    width: 100%;
+    background: url('../images/hero-image1.jpeg') no-repeat center center;
+    background-size: cover;
+
+    /* Animates zoom effect on loading page */
+animation-name: hero-zoom;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+}
+
+
+
+/* Creates the level of zoom for hero image */
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+
+    }
+    to{
+        transform: scale(1.1);
+
+    }
 }
