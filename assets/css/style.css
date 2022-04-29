@@ -16,10 +16,32 @@ body {
 h1, h2 {
     font-family: Domine, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     color:darkslateblue;
 }
 #logo {
     float: left;
     font-size: 280%;
+}
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float:right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu a:hover {
+    border-bottom: 1px solid #272249;
+}
+.active {
+    border-bottom: 1px solid #272249;
 }
