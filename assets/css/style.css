@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Lora:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Playfair+Display:ital,wght@1,700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -14,11 +14,11 @@ body {
 /* headings and logo */
 
 h1, h2 {
-    font-family: Domine, sans-serif;
+    font-family: Playfair, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     /* color:darkslateblue; */
-    color:#331bcf;
+    color:#297db6;
 }
 #logo {
     float: left;
@@ -38,19 +38,28 @@ h1, h2 {
 }
 #menu a {
     text-decoration: none;
-    color: #331bcf;
+    color: #0080ca;
 }
 #menu a:hover {
     border-bottom: 1px solid #331bcf;
 }
 .active {
-    border-bottom: 1px solid #272249;
+    border-bottom: 1px solid #331bcf;
 }
 /* hero image */
 #hero-outer {
     height: 650px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color: #0080ca;
+    position: relative; left: 5px;
+    text-align: center;
+    
+
 }
 
 #hero-image1 {
@@ -59,7 +68,7 @@ h1, h2 {
     background: url('../images/hero-image1.jpeg') no-repeat center center;
     background-size: cover;
 
-    /* Animates zoom effect on loading page */
+    /* Animates zoom effect on loading page and cover text */
 animation-name: hero-zoom;
 animation-duration: 5s;
 animation-fill-mode: forwards;
@@ -77,4 +86,23 @@ animation-fill-mode: forwards;
         transform: scale(1.1);
 
     }
+}
+#cover-text {
+    font-size: 130%;
+    font-family: Domine, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgb(156, 237, 237, .7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
 }
