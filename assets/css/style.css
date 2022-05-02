@@ -171,3 +171,12 @@ hr{
     background: url('../images/reading-quotes.jpeg') no-repeat center center;
     height: 100%;
 }
+/* event times */
+#times {
+    background-image: url('../images/dream-book.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
