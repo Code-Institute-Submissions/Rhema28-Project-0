@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Playfair+Display:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display:wght@500&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -151,4 +151,23 @@ hr{
 }
 .right-about-heading p {
     text-align: right;
+}
+#welcome {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 180%;
+}
+#square-container {
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #331bcf;
+    border-width: 1px;
+    margin: 0 auto;
+
+}
+#square-cover-bg {
+    background: url('../images/reading-quotes.jpeg') no-repeat center center;
+    height: 100%;
 }
