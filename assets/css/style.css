@@ -242,7 +242,7 @@ width: 100%;
         clear: both;
         height: 150px;
         padding: 0;
-        
+
     }
     #center-about {
         clear: both;
@@ -284,5 +284,13 @@ width: 100%;
         padding: 0 20px;
 
     }
+    #photos {
+        column-count: 2;
+    }
 }
-    
+/* For small screen sizes 800px and down */
+    @media screen and (max-width: 800px) {
+        #photos {
+            column-count: 1;
+        }
+    }
