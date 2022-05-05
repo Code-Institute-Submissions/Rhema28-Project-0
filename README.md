@@ -1,19 +1,19 @@
 # Love Reading
 
-For example; Love Reading is a site that promotes a dynamic bookclub which caters to people with different reading styles. It hopes to connect, motivate and inspire people to become literary lovers. This book club provides opportunities for members to better understand their reading styles and explore ways to not only digest powerful novels but learn how to bring the pages to life. 
-The Love Reading site will be a perfect start for those who are ready to adopt a new lifestyle of reading. All readers who would like to join the club can find out about our different reading methods, locations and meeting times. 
+Love Reading is a site that promotes a dynamic book club which caters to people with different reading styles. It hopes to connect, motivate and inspire people to become literary lovers. This book club provides opportunities for members to better understand their reading styles and explore ways to not only digest powerful novels but learn how to bring the pages to life. 
+The Love Reading site will be a perfect start for those who are ready to adopt a new lifestyle of reading. All readers who would like to join the club can find out about our different reading methods, locations and meeting times and how to become a member. 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+On the Love Reading site the main features are the navigation bar, the landing page image, the club ethos section, the meet up times and location section and the footer.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - Featured on all three pages, the fully responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
@@ -35,14 +35,14 @@ In this section, you should go over the different parts of your project, and des
 
 - __Meetup Times section__
 
-  - This section will allow the user to see the exact location and what particular session is taking place at a particular time. 
+  - This section will allow the user to see the exact location of the meet ups and what particular session is taking place at a particular time. 
   - This section will be updated as these times change to keep the user up to date. 
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer section includes links to the relevant social media sites for Love Reading. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
@@ -56,21 +56,25 @@ In this section, you should go over the different parts of your project, and des
 
 - __The Sign Up Page__
 
-  - This page will allow the user to get signed up to Love Reading to start their reading journey with the community. The user will be able specify if they would like to take part in the kinaesthetic, literary, audio or visual reading sessions. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to get signed up to Love Reading to start their reading journey with the community. The user will be able specify if they would like to take part in the kinaesthetic, literary, audio ,visual or all of the reading sessions. The user will be asked to submit their full name and email address. 
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
-- Another feature idea
+- Another feature idea that can be implemented to this site is testimonials from previous or present members who have participated in some of the reading sessions provided by Love Reading.
+
+- An additional feature would be a link in the footer that takes the user to the communal blogging site mentioned in the literary session of the club ethos section.
+
+- Furthermore, a book recommendations page could be added for members of the group to share suggestions of novels to read in future.
+
+- In addition to this there could be a feature that allows members to create a Love Reading social media profile page where they could post their thoughts on their current reads, post their favourite novel quotes, connect and discuss with other club members.
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+According to light house testing my project meets main criteria.
+
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
@@ -82,7 +86,8 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Frhema28.github.io%2FProject-0%2Findex.html&usermedium=all&vextwarning=&warning=1)
+  
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
@@ -91,8 +96,6 @@ If this section grows too long, you may want to split it off into a separate fil
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -104,6 +107,7 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits & ### Content 
 
+-The structure of this project was taken from Code Institute [https://learn.codeinstitute.net]
 - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
@@ -111,7 +115,6 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 ### Media
 
 - The photos used on the home page are from Pik Wizard [https://pikwizard.com/]
-- The images used for the gallery page were taken from this other open source site
+- The images used for the gallery page were taken from Pik Wizard and another open source site.
 
-## Other General Project Advice
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+ 
