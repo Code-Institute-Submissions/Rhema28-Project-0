@@ -1,6 +1,6 @@
 # Love Reading
 
-For example; Love Reading is a site that promotes a dynamic bookclub which caters to people with different reading styles. It hopes to connect, motivate and inspire people to become literary lovers. This book club provides opportunities for members to better understand their reading styles and explore ways to not only digest powerful novels but learn how to bring the pages to life. 
+Love Reading is a site that promotes a dynamic bookclub which caters to people with different reading styles. It hopes to connect, motivate and inspire people to become literary lovers. This book club provides opportunities for members to better understand their reading styles and explore ways to not only digest powerful novels but learn how to bring the pages to life. 
 The Love Reading site will be a perfect start for those who are ready to adopt a new lifestyle of reading. All readers who would like to join the club can find out about our different reading methods, locations and meeting times. 
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
