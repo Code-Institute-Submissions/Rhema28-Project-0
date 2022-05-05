@@ -8,7 +8,7 @@
 body {
     font-family: Lora, sans-serif;
     font-weight: 300;
-    color: #0080ca;
+    color: #02304b;
 }
 
 /* headings and logo */
@@ -39,7 +39,7 @@ h1, h2 {
 }
 #menu a {
     text-decoration: none;
-    color: #0080ca;
+    color: #02304b;
 }
 #menu a:hover {
     border-bottom: 1px solid #297db6;
@@ -56,7 +56,7 @@ h1, h2 {
     position: relative;
 }
 #cover-text, #cover-text h2 {
-    color: #0080ca;
+    color: #02304b;
     position: relative; left: 5px;
     text-align: center;
     
@@ -75,6 +75,12 @@ animation-duration: 5s;
 animation-fill-mode: forwards;
 }
 
+#hero-image2 {
+    height: 100%;
+    width: 100%;
+    background: url('../images/hero-image2.jpeg') no-repeat center center;
+    background-size: cover;
+}
 
 
 /* Creates the level of zoom for hero image */
@@ -128,7 +134,7 @@ animation-fill-mode: forwards;
     
 }
 hr{
-    border-top: 1px solid #331bcf;
+    border-top: 1px solid #02304b;
     width: 100%;
     margin: 5px 0;
 }
@@ -162,7 +168,7 @@ hr{
     height: 300px;
     padding: 20px;
     border-style: solid;
-    border-color: #331bcf;
+    border-color: #02304b;
     border-width: 1px;
     margin: 0 auto;
 
@@ -173,7 +179,7 @@ hr{
 }
 /* event times */
 #times {
-    background-image: url('../images/dream-book.jpeg');
+    background-image: url('../images/dream-book-min.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -293,4 +299,60 @@ width: 100%;
         #photos {
             column-count: 1;
         }
+    }
+/* Sign up form */
+
+    .form-section {
+        clear: left;
+        background: url('../images/hero-image2.jpeg') no-repeat center center;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        position: relative;
+    }
+    .signup-form {
+        /* margin: 50px auto 0 auto; */
+        color: #fff;
+        background-color: rgba(60, 60, 60, 0.6);
+        max-width: 400px;
+        max-height: 400px;
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding: 30px;
+        
+    }
+    .signup-form h2 {
+        color: #fafafa;
+        margin-bottom: 20px;
+    }
+    .text-input {
+        background: transparent;
+        color: #fafafa;
+        width: 100%;
+        height: 15px;
+        margin: 5px 0 20px;
+        border: 1px solid #fafafa;
+        border-radius: 2px;
+    }
+    .text-input:hover {
+            border-color: #f16c6b;
+        }
+    .join-button {
+        margin-top: 20px;
+        border-radius: 2px;
+        padding: 15px 32px 15px 32px;
+        text-align: center;
+        font-size: 100%;
+        background-color: #f16c6b;
+        color: #fafafa;
+        position: absolute;
+        display: block;
+    }
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #f16c6b;
     }
