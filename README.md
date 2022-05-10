@@ -116,4 +116,5 @@ The live link can be found here -
 - The photos used on the home page are from Pik Wizard [https://pikwizard.com/]
 - The images used for the gallery page were taken from Pik Wizard and another open source site.
 
- 
+## Other General Project Advice
+Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
