@@ -77,6 +77,8 @@ According to light house testing my project meets the main criteria. However, my
 
 [CompressJpeg](https://compressjpeg.com/).
 
+[LightHouseTesting](../Project-0/assets/images/lighthouse-testing.png)
+
 I did this and also compressed my hero image 2. After both images were compressed, my score went up to 85%
 
 My accessibility score was at 92% initially as I had a problem with the color contrast. So I had to darken the font color of my menu and body text so that users who may suffer from color blindness would be able to read the content clearly and with ease. This brought my score to 100%.
@@ -92,7 +94,7 @@ My accessibility score was at 92% initially as I had a problem with the color co
 
 ### Unfixed Bugs
 
- 
+ There were no unfixed bugs found.
 
 ## Deployment
 
@@ -116,5 +118,4 @@ The live link can be found here -
 - The photos used on the home page are from Pik Wizard [https://pikwizard.com/]
 - The images used for the gallery page were taken from Pik Wizard and another open source site.
 
-## Other General Project Advice
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+
