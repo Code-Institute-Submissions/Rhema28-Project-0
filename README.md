@@ -86,11 +86,11 @@ My accessibility score was at 92% initially as I had a problem with the color co
 
 ### Validator Testing 
 
-- HTML
+- CSS
   - No errors were returned when passing through the official [W3C validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Frhema28.github.io%2FProject-0%2Findex.html&usermedium=all&vextwarning=&warning=1)
 
-- CSS
-- No errors were found when passing through the official [(Jigsaw) validator]()
+- HTML
+- No errors were found when passing through the official [(Jigsaw) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frhema28.github.io%2FProject-0%2F)
 
 ### Unfixed Bugs
 
@@ -103,10 +103,10 @@ My accessibility score was at 92% initially as I had a problem with the color co
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - 
+The live link can be found here - https://rhema28.github.io/Project-0/ 
 
 
-## Credits & # Content 
+## Credits & Content 
 
 -The structure of this project was taken from Code Institute [https://learn.codeinstitute.net]
 - The text for the Home page was taken from Wikipedia Article A
